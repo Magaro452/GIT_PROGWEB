@@ -1,0 +1,158 @@
+header {
+    width: 100%;
+    height: fit-content;
+    background-image: url(https://thumbs.dreamstime.com/b/arri%C3%A8re-voyage-symboles-de-g%C3%A9ographie-motif-transparent-dans-le-style-doodle-dessin%C3%A9-%C3%A0-la-main-ic%C3%B4nes-color%C3%A9es-du-tourisme-239426992.jpg);
+    color: rgb(90, 24, 233);
+    
+}
+
+header > h1 {
+    text-align: center;
+    text-shadow: 4px 4px 4px  black;
+    font-size: 70px;
+    font-family:"apple-system","BlinkMacSystemFont","Segoe UI,Fira Sans";
+   
+    margin: 0%;
+}
+
+header .menu_container {
+    display: flex;
+    justify-content: center;
+} 
+
+header .btn_menu {
+    background-color: aquamarine;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    transition: all 1s;
+}
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+a {
+    text-decoration: none;
+    font-style: italic;
+}   
+
+header .btn_menu:hover {
+    transform: scaleX(1.5);
+}
+
+body {
+    background-image: url(https://thumbs.dreamstime.com/b/geography-geology-education-subject-handwriting-doodle-icon-earth-exploration-map-design-sign-symbol-isolated-icons-set-236013226.jpg);  
+}
+
+
+main {
+    /*width: 100%;
+    height: fit-content;*/
+    display: flex;
+    justify-content: center;
+}
+
+.tarjeta_juego {
+    width: 25%;
+    border: 3px solid coral;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(228, 255, 205);
+    height: fit-content; 
+}   
+    
+.tarjeta_juego h5 {
+    text-align: center;
+    font-size: 1,2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: darkgreen;
+}
+
+.tarjeta_juego .descripcion_juego {
+    width: 100%;
+    height: 50px;
+    overflow-y: hidden;
+    margin: 5px 5px 10px 5px;
+    cursor: pointer;
+}
+
+.tarjeta_juego .descripcion_juego p.texto_juego {
+    font-size: 0.85em;
+    text-align: justify;
+}
+
+    
+main .game_main {
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    border: 2px solid;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+main .game_main > img { 
+height: 100%;
+width: 100%;
+}
+ 
+@keyframes movimientos {
+    from{
+     transform:translate(-300px);
+    }
+    to{
+    transform:translate(0px);  
+    }
+}
+
+
+#juego1 {
+    display: block;
+    animation-name: animation_juego1;
+    animation-duration: 6s;
+}
+
+@keyframes animation_juego1 {
+    from {
+        transform:translatex(-500px) rotate(0);
+       }
+    to {
+        transform:translatex(0) rotate(360deg);
+       }
+}
+
+#juego2 {
+    display: block;
+    animation-name: animation_juego2;
+    animation-duration: 6s;
+}
+
+@keyframes animation_juego2 {
+    from {
+        transform:translatey(-500px) rotate(0);
+       }
+    to {
+        transform:translatey(0) rotate(360deg);
+       }
+}
+
+#juego3 {
+    display: block;
+    animation-name: animation_juego3;
+    animation-duration: 6s;
+}
+
+@keyframes animation_juego3 {
+    from {
+        transform:translatex(500px) rotate(0);
+       }
+    to {
+        transform:translatex(0) rotate(360deg);
+       }
+}
