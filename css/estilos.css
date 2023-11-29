@@ -1,17 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Black+Ops+One&family=Pixelify+Sans:wght@400;600&display=swap');
+
 header {
     width: 100%;
     height: fit-content;
     background-image: url(https://thumbs.dreamstime.com/b/arri%C3%A8re-voyage-symboles-de-g%C3%A9ographie-motif-transparent-dans-le-style-doodle-dessin%C3%A9-%C3%A0-la-main-ic%C3%B4nes-color%C3%A9es-du-tourisme-239426992.jpg);
-    color: rgb(90, 24, 233);
-    
+    color: rgb(233, 24, 24);
 }
 
 header > h1 {
     text-align: center;
     text-shadow: 4px 4px 4px  black;
-    font-size: 70px;
-    font-family:"apple-system","BlinkMacSystemFont","Segoe UI,Fira Sans";
-   
+    font-size: 80px;
+    font-family: 'Pixelify Sans', sans-serif;
     margin: 0%;
 }
 
@@ -30,18 +30,30 @@ header .btn_menu {
     align-items: center;
     margin: 30px;
     transition: all 1s;
+    color: blue;
 }
+
 * {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
 
+footer > a {
+    display: inline;
+    width: 450px;
+    height: 100px;
+    border: 2px solid rgb(255, 115, 0);
+    background-color: rgb(151, 229, 168);
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+}
 
 a {
     text-decoration: none;
     font-style: italic;
-}   
+}  
 
 header .btn_menu:hover {
     transform: scaleX(1.5);
@@ -53,8 +65,6 @@ body {
 
 
 main {
-    /*width: 100%;
-    height: fit-content;*/
     display: flex;
     justify-content: center;
 }
@@ -155,4 +165,22 @@ width: 100%;
     to {
         transform:translatex(0) rotate(360deg);
        }
+}
+
+button {
+    display: block;
+    align-items: center;
+    width: 50%;
+    height: auto;
+    background-color: aquamarine;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 25%;
+    border-radius: 1px;
+    box-shadow: 5px 5px 5px #000;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+    
 }

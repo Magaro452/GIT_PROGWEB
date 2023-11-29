@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PAGINA DE JUEGOS</title>
-    <link rel="stylesheet" href="estilos.css"/>
+    <link rel="stylesheet" href="css/estilos.css"/>
 </head>
 <body>
   <header>
     <h1>JUEGOS DE TRIVIA</h1>>
      <div class="menu_container">
        <a href="index.html"><div class="btn_menu">HOME</div></a>
-       <a href="noticias.html"><div class="btn_menu">NOTICIAS</div></a>
-       <a href="nosotros.html"><div class="btn_menu">NOSOTROS</div></a>
+       <a href="./html/noticias.html"><div class="btn_menu">NOTICIAS</div></a>
+       <a href="./html/nosotros.html"><div class="btn_menu">NOSOTROS</div></a>
      </div>
 </header>
 
@@ -26,8 +26,8 @@
         <img src="https://www3.gobiernodecanarias.org/medusa/ecoescuela/recursosdigitales/files/formidable/6/juegos-geograficos.jpg">
       </div>
    </a>
-    <div class="descripcion_juego" id="texto_juego1" onclick="verMas(this)">
-      <p class="texto_juego">Son juegos educativos gratis y fáciles de usar. Está dirijido a todo aquel que quiere mejorar sus conocimentos y mantener el cerebro activo. Esta página web tiene muchos juegos de preguntas entretenidos y estimulantes para que mejores tus conocimientos geográficos. Los juegos incluyen preguntas sobre países, regiones, cuerpos de agua, montañas, desiertos, áreas metropolitanas y otros temas que pondrán a prueba tu cerebro. Si eres de los que quiere explorar y aprender sobre el mundo, has llegado al lugar adecuado.</p>
+    <div class="descripcion_juego" id="texto_juego1" onclick="verMas(this, event)">
+      <p class="texto_juego">Son juegos educativos gratis y fáciles de usar. Está dirigido a todo aquel que quiere mejorar sus conocimentos y mantener el cerebro activo. Esta página web tiene muchos juegos de preguntas entretenidos y estimulantes para que mejores tus conocimientos geográficos. Los juegos incluyen preguntas sobre países, regiones, cuerpos de agua, montañas, desiertos, áreas metropolitanas y otros temas que pondrán a prueba tu cerebro. Si eres de los que quiere explorar y aprender sobre el mundo, has llegado al lugar adecuado.</p>
     </div>
     </div>
 
@@ -39,7 +39,7 @@
         <img src="https://www.bing.com/th?id=OIP.EeUq9R6ufANvsp_k9wJh1AHaHa&pid=3.1&cb=&w=300&h=300&p=0">
     </div>
   </a>
-   <div class="descripcion_juego" id="texto_juego2" onclick="verMas(this)">
+   <div class="descripcion_juego" id="texto_juego2" onclick="verMas(this, event)">
        <p class="texto_juego">Es un juego de preguntas y respuestas de seis categorías diferentes: Geografía, Historia, Arte, Ciencia, Entretenimiento y Deportes.¡Gira la rueda del trivial y mira qué tema se elige para ti! Si te equivocas en la respuesta, ¡se acabó el juego! Responde sucesivamente a tantas preguntas como puedas.</p> 
    </div>
    </div>
@@ -51,13 +51,18 @@
      <img src="https://i.etsystatic.com/18003130/r/il/943893/1630351285/il_1140xN.1630351285_rnl0.jpg">
     </div>
 </a> 
- <div class="descripcion_juego" id="texto_juego3" onclick="verMas(this)" >
+ <div class="descripcion_juego" id="texto_juego3" onclick="verMas(this, event)" >
    <p class="texto_juego">Es un juego de pensamiento en el que se te presenta una bandera aleatoria y debes adivinar a que país pertenece. Hay seis modos de juego principales: 60 segundos (corrige tantas banderas como sea posible en un minuto), racha (juega todo el tiempo que puedas sin cometer un error) y aprender (las respuestas incorrectas se repetirán).</p>
  </div>
  </div>
 
 </main>
-<script src="scritp.js"></script>
-</body> 
+<script src="js/script.js"></script>
+<footer><button>
+  <a href=file:///C:/Users/Usuario/Desktop/proyecto%20final%202/indext.html>TRIVIA TANDIL</a>
+</button>
+</footer>
+</body>
+
 </html>
 

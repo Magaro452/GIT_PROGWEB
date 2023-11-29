@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Black+Ops+One&family=Pixelify+Sans:wght@400;600&family=Teko:wght@300;400&display=swap');
+
+body {
+    background-color: rgb(127, 255, 244); 
+}
+
+h1 {
+font-size: 70px;
+text-align: center; 
+font-family: 'Pixelify Sans', sans-serif; color: blue;
+text-shadow: 4px 4px 4px  rgb(237, 99, 99);
+margin: 0%;
+background-color: rgb(127, 255, 185); 
+
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+}

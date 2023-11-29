@@ -1,0 +1,50 @@
+input:focus {
+    box-shadow: 3px 3px 3px rgb(61, 61, 59);
+}
+
+body{
+    padding: 15px;
+    background-image:url(https://thumbs.dreamstime.com/b/geography-geology-education-subject-handwriting-doodle-icon-earth-exploration-map-design-sign-symbol-isolated-icons-set-236013226.jpg); 
+}
+
+.formulario-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario-container > form{
+    background-color: rgb(100, 250, 137);
+    box-shadow: 3px 3px 10px;  
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    width: 50%;
+    padding: 20px;
+    margin:10px;
+}
+
+.formulario-container > form > textarea{
+    resize: none;
+}
+
+header { 
+    background-color: aquamarine;
+}
+
+h3 {
+    font-size: 30px; color: rgb(5, 71, 30);
+    text-align: center;
+    background-color: rgb(255, 249, 127);
+}
+
+
+
+
+
+
+
+
+
+
